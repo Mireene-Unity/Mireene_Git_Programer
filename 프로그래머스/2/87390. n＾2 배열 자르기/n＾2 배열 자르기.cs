@@ -10,7 +10,7 @@ public class Solution {
                 answer[i] = (int)(k/n+1);
             else
             {
-                answer[i] = (int)(k%n +1);
+                answer[i] = (int)(k%n+1);
             }
         }
         return answer;
